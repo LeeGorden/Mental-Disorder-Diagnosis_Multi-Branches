@@ -6,13 +6,9 @@
 <summary>Introduction</summary>
 As applications of ML algorithms in real life become increasingly common, ethical issues of AI solutions emerge especially in a sensitive human-related field such as the medical care industry. To answer the need for ML models or methods with high interpretability in field of mental health, the responsible AI framework proposed innovatively integrates visualization algorithms t-SNE, convolution neural networks and explainable AI to evaluate predictions of mental disorders based on images generated and provide a corresponding explanation of why the Blackbox model makes such decisions. The output of the framework proposed are images demonstrated to be in both high accuracy and high interpretability in field experiments with accuracy higher than 90% by prediction based on bare human eyes. More importantly, the images generated under the responsible framework enable experts in the field of mental health to diagnose mental disorders even if they do not know ML algorithms.
 
-
 Responsibility of the research:
-  
 Tutun Salih: Project owner. Providing and gathering original data; leading and indicating the design of the research.
-  
 Gorden Li(Kehao Li): Head research assistant, responsible of implementing alogirithms and writing codes to achieve the design of Professor Tutun Salih.
-  
 Yuxiang Wu: Research assistant, assist head research assistant.
 
 </details>
