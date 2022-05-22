@@ -5,13 +5,14 @@ Email: likehao1006@gmail.com
 URL: https://www.linkedin.com/in/kehao-li-06a9a2235/
 ResearchGate: https://www.researchgate.net/profile/Gorden-Li
 
-Draw Network and calculate related indicators of nodes in network
+Calculating different centrality in Network Science
 """
 import pandas as pd
 import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 from scipy.spatial.distance import pdist, squareform
+import Hamming_Distance
 
 
 # ------------------------Calculation of Similarity and Definition of Interaction--------------------------
@@ -32,24 +33,30 @@ def find_interaction(x, method='cosine', threshold=0.2, feature=True):
     interact_list = list()
     # When feature=True, find interaction between features, else find interaction between samples
     if feature:
-        x = x.T
         nodes_name = x.columns
+        x = x.T
     else:
         nodes_name = x.index
     # Calculate the distance based on method input
     if method == "cosine":
+        print('Calculating distance using cosine distance')
         dist = pdist(x, metric='cosine')
     elif method == "euclidean":
+        print('Calculating distance using euclidean distance')
         dist = pdist(x, metric='euclidean')
     elif method == "mahalanobis":
+        print('Calculating distance using mahalanobis distance')
         dist = pdist(x, metric='mahalanobis')
+    elif method == 'hamming':
+        print('Calculating distance using hamming distance')
+        dist = Hamming_Distance.hamming_distance_32bits(np.array(x))
     dist_max = np.max(dist)
     dist_min = np.min(dist)
     # Draw distribution chart of cosine distance
     plt.figure()
     plt.hist(dist)
     plt.title(method + ' distance')
-    plt.xlabel('cosine distance')
+    plt.xlabel(method + ' distance')
     plt.ylabel('count')
     plt.annotate('Mean: ' + str(round(np.mean(dist), 3)), xy=(0.75 * dist_max, len(dist) / 5 * 1),
                  xytext=(0.75 * dist_max, len(dist) / 5 * 1))
