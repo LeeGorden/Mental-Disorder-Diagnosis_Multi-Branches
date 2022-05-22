@@ -37,6 +37,10 @@ The dataset is collected in the Guven Private Health Laboratory with help of DNB
   
   ![VAE classification](https://user-images.githubusercontent.com/72702872/169719488-9343fe4e-9471-4cf6-b2b9-9ac100c91736.png)
   
+  Pattern Tree is as follows, in different location of 2D plane, there appear to be different in place showing darker pixels:
+  
+  ![image](https://user-images.githubusercontent.com/72702872/169720167-2b5c8333-209e-4259-ac46-70ef8c934f20.png)
+  
   Here's an example of positive image and negative:
   
   ![image](https://user-images.githubusercontent.com/72702872/169719533-fdadc724-9188-4013-a6ad-ce16b4b9a889.png) 
