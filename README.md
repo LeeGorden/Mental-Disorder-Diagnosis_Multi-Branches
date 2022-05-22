@@ -27,13 +27,17 @@ More importantly, the images generated under the responsible framework enable ex
   
   Based on SHAP using CNN model trained, shapley value of pixels of each mental disorder is as follows:
   
+  ![image](https://user-images.githubusercontent.com/72702872/169706631-ea49462f-7236-45f1-a380-b9680e686bbf.png)
+  
   ![image](https://user-images.githubusercontent.com/72702872/169706263-d93dc434-b556-4523-98e6-64d41ec2c762.png)
   
   Combining SHAP canvas generated, final images are as follows:
   
   ![image](https://user-images.githubusercontent.com/72702872/169705900-66348149-649e-4e48-8740-2e7694620674.png)
   
-  Each image represents a patient, and it is split into different areas. Those areas express different mental disorders. **The darker the pixels are within certain area, the higher the possibility that the patient will have corresponding mental disorder.**
+  Each image represents a patient, and it is split into different areas. Those areas express different mental disorders. **The darker the pixels are within certain area, the higher the possibility that the patient will have corresponding mental disorder. An example on how to interpret the image is as follow:**
+  
+  ![image](https://user-images.githubusercontent.com/72702872/169706642-caf6f3cb-377f-4b8a-b5ac-c626cc302a04.png)
   
 - Accuracy off human eyes judging whether the patient has certain mental disorder(field experiment) and accuracy of CNN(lab environment):
   
