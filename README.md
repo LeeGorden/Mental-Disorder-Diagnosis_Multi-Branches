@@ -27,9 +27,19 @@ The dataset is collected in the Guven Private Health Laboratory with help of DNB
 <details open>
 <summary>Result</summary>
 
-- Images are represented in a latent space based on VAE. After getting the :
+- Images are represented in a latent space based on VAE. After getting the high-dimension latent expression of an image, Gaussian Mixture Model is used to identify clusters. Meanwhile, t-SNE is applied to μ in latent expression to visualize images pattern on a 2D plane.
   
- 
+  Latent-expressing images after applying t-SNE:
+  
+  ![VAE+T-SNE](https://user-images.githubusercontent.com/72702872/169719438-2d6406b4-a53e-4954-b469-401cc0d4fa1d.png)
+  
+  Latent-expressing images after applying t-SNE, meanwhile using GMM to find out clusters according to latent expression, red = positive case, blue = negative case. We can see there is a clear difference between positive and negative samples:
+  
+  ![VAE classification](https://user-images.githubusercontent.com/72702872/169719488-9343fe4e-9471-4cf6-b2b9-9ac100c91736.png)
+  
+  Here's an example of positive image and negative:
+  
+  ![image](https://user-images.githubusercontent.com/72702872/169719533-fdadc724-9188-4013-a6ad-ce16b4b9a889.png) 
 
 </details>
 
