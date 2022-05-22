@@ -29,9 +29,9 @@ The dataset is collected in the Guven Private Health Laboratory with help of DNB
   
   Based on SHAP using CNN model trained, shapley value of pixels of each mental disorder is as follows:
   
-  ![image](https://user-images.githubusercontent.com/72702872/169706631-ea49462f-7236-45f1-a380-b9680e686bbf.png)
-  
   ![image](https://user-images.githubusercontent.com/72702872/169706263-d93dc434-b556-4523-98e6-64d41ec2c762.png)
+  
+  ![image](https://user-images.githubusercontent.com/72702872/169706631-ea49462f-7236-45f1-a380-b9680e686bbf.png)
   
   Combining SHAP canvas generated, final images are as follows:
   
