@@ -4,8 +4,11 @@
 
 <details open>
 <summary>Introduction</summary>
+  
 As applications of ML algorithms in real life become increasingly common, ethical issues of AI solutions emerge especially in a sensitive human-related field such as the medical care industry. To answer the need for ML models or methods with high interpretability in field of mental health, the responsible AI framework proposed innovatively integrates visualization algorithms t-SNE, convolution neural networks and explainable AI to evaluate predictions of mental disorders based on images generated and provide a corresponding explanation of why the Blackbox model makes such decisions. The output of the framework proposed are images demonstrated to be in both high accuracy and high interpretability in field experiments with accuracy higher than 90% by prediction based on bare human eyes. 
 More importantly, the images generated under the responsible framework enable experts in the field of mental health to diagnose mental disorders even if they do not know ML algorithms.
+
+**This branch use a Hierarchical Clustering method to visualize tabular data to a form of image.**
   
 The dataset is collected in the Guven Private Health Laboratory with help of DNB Analytics. For finding the questions of the SCL-90-R test used in this research, you can follow the link: https://dmu.trc.upenn.edu/dmumain/PDF_Files/scl.pdf 
 
@@ -25,26 +28,24 @@ The dataset is collected in the Guven Private Health Laboratory with help of DNB
 <details open>
 <summary>Result</summary>
 
-- Image created under the framework:
+- In a hierarchical method, more similar features will be put together to have a better performance in pattern experssion.
   
-  Based on SHAP using CNN model trained, shapley value of pixels of each mental disorder is as follows:
+  Pisitive Samples:
   
-  ![image](https://user-images.githubusercontent.com/72702872/169706263-d93dc434-b556-4523-98e6-64d41ec2c762.png)
+  ![Train_2_ 1](https://user-images.githubusercontent.com/72702872/169721367-7ef31183-a62f-4090-8eae-06a54b2a943e.png)
   
-  ![image](https://user-images.githubusercontent.com/72702872/169706631-ea49462f-7236-45f1-a380-b9680e686bbf.png)
+  ![Train_15_ 1](https://user-images.githubusercontent.com/72702872/169721373-f78a9ff6-b7bd-4df0-bba5-b432378f02f0.png)
   
-  Combining SHAP canvas generated, final images are as follows:
+  ![Train_34_ 1](https://user-images.githubusercontent.com/72702872/169721375-642759aa-8809-4c60-8e03-378731d3760d.png)
   
-  ![image](https://user-images.githubusercontent.com/72702872/169705900-66348149-649e-4e48-8740-2e7694620674.png)
+  Negative Samples:
   
-  Each image represents a patient, and it is split into different areas. Those areas express different mental disorders. **The darker the pixels are within certain area, the higher the possibility that the patient will have corresponding mental disorder. An example on how to interpret the image is as follow:**
+  ![Train_1969_ 0](https://user-images.githubusercontent.com/72702872/169721383-a3c67834-5d2d-4d46-803f-40e52649250f.png)
   
-  ![image](https://user-images.githubusercontent.com/72702872/169706642-caf6f3cb-377f-4b8a-b5ac-c626cc302a04.png)
+  ![Train_1979_ 0](https://user-images.githubusercontent.com/72702872/169721390-d03ecd11-7687-4be2-9cee-aee3c5fe23be.png)
   
-- Accuracy off human eyes judging whether the patient has certain mental disorder(field experiment) and accuracy of CNN(lab environment):
+  ![Train_2050_ 0](https://user-images.githubusercontent.com/72702872/169721393-e0d5d1c6-a0d5-4b0c-852a-233690f0c7e0.png)
   
-  ![image](https://user-images.githubusercontent.com/72702872/169706185-ab46a226-7118-4cb6-bb84-2436b2dbea86.png)
-
 </details>
 
 </details>
