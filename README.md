@@ -4,60 +4,17 @@
 
 <details open>
 <summary>Introduction</summary>
-Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) on Kaggle is used. In the dataset, there are totally 8 emotions including calm, happy, sad, angry, fearful, surprise, and disgust expressions. Each expression is produced at two levels of emotional intensity (normal, strong), with an additional neutral expression. There are 12 males and 12 females recording audios.
-
-The task is to visualize audio MP4 file into **Mel-Spectrograms** images and apply CNN + LSTM to estimate sequential images.
+As applications of ML algorithms in real life become increasingly common, ethical issues of AI solutions emerge especially in a sensitive human-related field such as the medical care industry. To answer the need for ML models or methods with high interpretability in field of mental health, the responsible AI framework proposed innovatively integrates visualization algorithms t-SNE, convolution neural networks and explainable AI to evaluate predictions of mental disorders based on images generated and provide a corresponding explanation of why the Blackbox model makes such decisions. The output of the framework proposed are images demonstrated to be in both high accuracy and high interpretability in field experiments with accuracy higher than 90% by prediction based on bare human eyes. More importantly, the images generated under the responsible framework enable experts in the field of mental health to diagnose mental disorders even if they do not know ML algorithms.
+  
+Responsibility of the research:
+  
+Tutun Salih: Project owner. Providing and gathering original data; leading and indicating the design of the research.
+  
+Gorden Li(Kehao Li): Head research assistant, responsible of implementing alogirithms and writing codes to achieve the design of Professor Tutun Salih.
+  
+Yuxiang Wu: Research assistant, assist head research assistant.
 
 </details>
-
-<details open>
-<summary>Methodology</summary>
-The whole project include the following steps
-
-
-<details open>
-<summary>Data Preprocess</summary>
-
-- Transferring MP4 audio file to Mel-Spectrograms:
-
-  Dealing with data imbalance. In this project, Up-Sampling and Down-Sampling is used to balance data with different score. More detailly, in Up-Sampling, Back Translation is applied via google API to generate comments under minority score.
-
-</details>  
-
-<details open>
-<summary>Descriptive Analysis</summary>
-
-- Comment Score Distribution:
-  
-  
-  
-  ![image-20220517001721652](C:\Users\LiGoudan\AppData\Roaming\Typora\typora-user-images\image-20220517001721652.png)
-
-  
-
-</details>   
-
-<details open>
-<summary>Model Training</summary>
-
-- In topic modeling, bag-of-words vectorization is applied. The best topic number is defined based on Perplexity.
-- In model predicting score, different tokenizing methods including Word Bag, TF-IDF + UniGram, TF-IDF + UniGram, TF-IDF + Uni&BiGram, TF-IDF BiGram.
-
-</details>
-
-</details>
-
-<details open>
-<summary>Result</summary>
-<details open>
-<summary>Data Balancing</summary>
-
-- After applying Down-Sampling(random sampling) and Up-Sampling(Back Translation), score distribution is as follow:
-
-  
-
-</details>
-
 
 <details open>
 <summary>Model Performance</summary>
