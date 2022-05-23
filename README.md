@@ -35,9 +35,7 @@ As applications of ML algorithms in real life become increasingly common, ethica
   
   ![image](https://user-images.githubusercontent.com/72702872/169705900-66348149-649e-4e48-8740-2e7694620674.png)
   
-  Each image represents a patient, and it is split into different areas. Those areas express different mental disorders. **The darker the pixels are within certain area, the higher the possibility that the patient will have corresponding mental disorder. An example on how to interpret the image is as follow:**
-  
-  ![image](https://user-images.githubusercontent.com/72702872/169706642-caf6f3cb-377f-4b8a-b5ac-c626cc302a04.png)
+  Each image represents a patient, and it is split into different areas. Those areas express different mental disorders. **The darker the pixels are within certain area, the higher the possibility that the patient will have corresponding mental disorder.**
 
 </details>
 
