@@ -10,9 +10,9 @@ As applications of ML algorithms in real life become increasingly common, ethica
 <details open>
 <summary>Responsibility of the research</summary>
   
-**Tutun Salih:** Project owner. Providing and gathering original data; leading and indicating the design of the research.
+**Salih Tutun:** Project owner. Providing and gathering original data; leading and indicating the design of the research.
   
-**Gorden Li(Kehao Li)**: Head research assistant, responsible of implementing alogirithms and writing codes to achieve the design of Professor Tutun Salih.
+**Gorden Li(Kehao Li)**: Head research assistant, responsible of implementing alogirithms and writing codes to achieve the design of Professor Salih Tutun.
   
 **Yuxiang Wu**: Research assistant, assist head research assistant.
 
