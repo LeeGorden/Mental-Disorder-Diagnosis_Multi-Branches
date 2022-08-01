@@ -29,7 +29,7 @@ As applications of ML algorithms in real life become increasingly common, ethica
   
   ![image](https://user-images.githubusercontent.com/72702872/169706263-d93dc434-b556-4523-98e6-64d41ec2c762.png)
   
-  ![image](https://user-images.githubusercontent.com/72702872/169706631-ea49462f-7236-45f1-a380-b9680e686bbf.png)
+  ![image](https://user-images.githubusercontent.com/72702872/182060545-7f0635aa-a031-4bad-9d9d-801894ff728d.png)
   
   Combining responsible AI, final images are as follows:
   
