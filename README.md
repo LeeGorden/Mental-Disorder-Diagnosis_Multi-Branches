@@ -29,7 +29,7 @@ As the applications of ML algorithms in real life become increasingly common, et
   
   ![image](https://user-images.githubusercontent.com/72702872/169706263-d93dc434-b556-4523-98e6-64d41ec2c762.png)
   
-  ![image](https://user-images.githubusercontent.com/72702872/182060545-7f0635aa-a031-4bad-9d9d-801894ff728d.png)
+  ![image](https://user-images.githubusercontent.com/72702872/198496708-72a97364-abd5-46a9-a798-383c6e3dc0ef.png)
   
   Combining responsible AI, final images are as follows:
   
