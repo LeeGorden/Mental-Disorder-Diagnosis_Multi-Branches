@@ -33,7 +33,7 @@ As the applications of ML algorithms in real life become increasingly common, et
   
   Combining responsible AI, final images are as follows:
   
-  ![image](https://user-images.githubusercontent.com/72702872/169705900-66348149-649e-4e48-8740-2e7694620674.png)
+  ![image](https://user-images.githubusercontent.com/72702872/198496830-3e2c50b9-164c-41b6-b84b-0c0a07db3f05.png)
   
   Each image represents a patient, and it is split into different areas. Those areas express different mental disorders. **The darker the pixels are within certain area, the higher the possibility that the patient will have corresponding mental disorder.**
 
